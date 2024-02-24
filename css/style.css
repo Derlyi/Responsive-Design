@@ -1,29 +1,41 @@
-header,
-.page,
-footer {
-  min-height: 200px;
-  background: grey;
+* {
+  background: white;
 }
 
-.menu {
+.img1 {
     min-height: 200px;
     display: inline-block;
-    background: blue;
     width: 30%;
 }
 
-.content {
+.img2 {
     min-height: 200px;
     display: inline-block;
-    background: lightgrey;
     width: 70%;
 }
 
-.page {
-    display: flex;
+.img3 {
+    min-height: 200px;
+    display: inline-block;
+    width: 70%;
 }
 
-@media (max-width: 600px) {
+.img4 {
+    min-height: 200px;
+    display: inline-block;
+    width: 70%;
+}
+
+.h {
+    text-align: center;
+}
+
+.p {
+    color: black;
+    text-align: justify;
+}
+
+@media (max-width: 640px) {
     .menu {
       background: red;
       width: 100%;
