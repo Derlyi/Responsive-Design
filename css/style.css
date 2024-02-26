@@ -1,73 +1,55 @@
-* {
-  background: white;
+body{
+    background-color: black;
+    justify-content: center;
+}
+    .container-tittle, h1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}   
+.container, p{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 30px;
 }
 
-.img1 {
-    min-height: 200px;
-    display: inline-block;
-    width: 30%;
+.peli1 {
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    margin: 30px; 
+    width: 20%;
 }
-
-.img2 {
-    min-height: 200px;
-    display: inline-block;
-    width: 70%;
-}
-
-.img3 {
-    min-height: 200px;
-    display: inline-block;
-    width: 70%;
-}
-
-.img4 {
-    min-height: 200px;
-    display: inline-block;
-    width: 70%;
-}
-
-.h {
+.peli1 p, h3{
     text-align: center;
 }
 
-.p {
-    color: black;
-    text-align: justify;
+.peli1 img {
+    display: block;
+    margin: 0 auto;
 }
-
-@media (max-width: 640px) {
-    .menu {
-      background: red;
-      width: 100%;
-    }
-
-    .content{
-      background: green;
-      width: 100%;
-    }
+.peli1 h2 {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (width <= 600px) {
-    .page {
-      display: block;
-    }
-
-    .content{
-      width: 100%;
-      background: lime;
-    }
-
-    .menu{
-        width: 100%;
-        background: yellow;
-      }
+.peli2 {
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    margin: 30px; 
+    width: 20%;
 }
-
-@media (min-width: 600px) and (max-width: 800px) {
-    .menu {
-      background: red;
-    }
-    .content {
-        background: pink;
-    }
-  }
+.peli2 p, h3{
+    text-align: center;
+}
+.peli2 img {
+    display: block;
+    margin: 0 auto;
+}
