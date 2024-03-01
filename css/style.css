@@ -81,11 +81,11 @@ body{
 /* Mediaqueries */
 
 @media (width <= 600px) { /*Celulares*/
-    .pelicula {
+    .peli1 {
         width: 100%;
         display: inline-block;
     }
-    .pelicula {
+    .peli2{
         padding-top: 100px;
         width: 100%;
         display: inline-block;
