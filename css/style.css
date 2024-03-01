@@ -43,49 +43,15 @@ body{
     text-align: center;
 }
 
-.peli1 {
-    color: white;
-    font-size: 20px;
-    padding-top:110px;
-    margin: 30px; 
-    width: 20%;
-}
-.peli1 p, h3{
-    text-align: center;
-}
-
-.peli1 img {
-    display: block;
-    margin: 0 auto;
-}
-.peli1 h2 {
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.peli2 {
-    color: white;
-    font-size: 20px;
-    padding-top:110px;
-    margin: 30px; 
-    width: 20%;
-}
-.peli2 p, h3{
-    text-align: center;
-}
-.peli2 img {
-    display: block;
-    margin: 0 auto;
-}
 
 /* Mediaqueries */
 
 @media (width <= 600px) { /*Celulares*/
-    .peli1 {
+    .pelicula {
         width: 100%;
         display: inline-block;
     }
-    .peli2 {
+    .pelicula {
         padding-top: 100px;
         width: 100%;
         display: inline-block;
