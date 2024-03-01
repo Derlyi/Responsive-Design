@@ -43,6 +43,40 @@ body{
     text-align: center;
 }
 
+.peli1 {
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    margin: 30px; 
+    width: 20%;
+}
+.peli1 p, h3{
+    text-align: center;
+}
+
+.peli1 img {
+    display: block;
+    margin: 0 auto;
+}
+.peli1 h2 {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.peli2 {
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    margin: 30px; 
+    width: 20%;
+}
+.peli2 p, h3{
+    text-align: center;
+}
+.peli2 img {
+    display: block;
+    margin: 0 auto;
+}
 
 /* Mediaqueries */
 
