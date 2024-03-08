@@ -3,24 +3,27 @@ body{
     justify-content: center;
 }
     .container-tittle, h1 {
-    justify-content: center;
+    juscontent: center;tify-
     align-items: center;
     margin-top: 100px;
     text-align: center;
     color: white;
     font-size: 80px;
-}   
+}  
+
+.h:hover {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}  
 .container{
+    justify-content: center;
     display: flex;
+    justify-content: left;
     text-align: center;
-    color: white;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    font-size: 20px;
-    padding-top: 20px;
-    margin: 30px;
+    margin-top: 4%;
+    background-color: black;
 }
 
 
@@ -32,8 +35,14 @@ body{
     width: 300px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    }
-    
+}
+
+.pelicula:hover {
+    transform: scale(1.2);
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
 .container_h2 h2 {
     margin: 20px;
     text-align: center;
@@ -43,41 +52,6 @@ body{
     text-align: center;
 }
 
-.peli1 {
-    color: white;
-    font-size: 20px;
-    padding-top:110px;
-    margin: 30px; 
-    width: 20%;
-}
-.peli1 p, h3{
-    text-align: center;
-}
-
-.peli1 img {
-    display: block;
-    margin: 0 auto;
-}
-.peli1 h2 {
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.peli2 {
-    color: white;
-    font-size: 20px;
-    padding-top:110px;
-    margin: 30px; 
-    width: 20%;
-}
-.peli2 p, h3{
-    text-align: center;
-}
-.peli2 img {
-    display: block;
-    margin: 0 auto;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -85,126 +59,61 @@ img {
 
 /* Mediaqueries */
 
-@media (width <= 600px) { /*Celulares*/
-    .peli1 {
-        width: 100%;
-        display: inline-block;
+@media (max-width: 600px) {
+    .container{
+      display: block;
+      justify-content: center;
     }
-    .peli2{
-        padding-top: 100px;
-        width: 100%;
-        display: inline-block;
+    .pelicula{
+      margin-bottom: 5%;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
-    .container {
-        width: 70%;
-        display: inline-block;
+    .pelicula:hover{
+      transform: scale(1);
+      margin-bottom: 5%;
     }
-    .container-tittle, h1{
-        width: 100%;
-        align-items: center;
+    .text{
+      display: none
     }
-    img {
-        max-width: 80%;
+    .img{
+      margin-bottom: 2%;
     }
-}
-
-@media (601px <= width <= 1199px) { /*Tablets*/
-    .peli2 {
-        padding-top: 100px;
-        width: 40%;
-        display: inline-block;
-        margin: 9px;
+  }
+  
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container{
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+      background-color: black;
     }
-    .peli2 p{
-        text-align: center;
-        margin: 10px;
-    }
-    .peli2 p, h3{
-        text-align: center;
-        margin: 3;
-    }
-    .peli2, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .peli1 {
-        width: 40%;
-        display: inline-block;
-        margin: 0;
-    }    
-    .peli1 p, h3{
-        text-align: center;
-        margin: 3;
-    }
-    .container {
-        width: 100%;
-        display: inline-block;
-        text-align: center;
-        margin: 0;
-    }
-    .container-h2, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .container-tittle, h1{
-        width: 100%;
-    }
-    img {
-        max-width: 80%;
+   
+    .pelicula{
+      margin-bottom: 5%;
+     
     }
     
-}
-
-@media (1200px <= width <= 1366px) { /*Laptops*/
-    .peli2 {
-        padding-top: 133px;
-        width: 100%;
-    }
-    .peli1 {
-        width: 100%;
-    }
-    .container {
-        width: 98%;
-        display: flex;
-    }
-    .container-tittle{
-        width: 100%;
-    }
-    body{
-        align-items: center;
-    }
-    img {
-        max-width: 80%;
-    }
-}
-@media (width >= 1367px) { /*Pantallas grandes*/
-    .container-h2, h2{
+     .title {
         text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .peli2 {
-        text-align: center;
-        padding-top: 100px;
-        width: 100%;
-        }
-    .peli2 h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .peli1 {
-        width: 100%;
-    }
-    .container {
-        width: 98%;
-    }
-    .container-tittle, h1{
-        width: 100%;
-    }
-    img {
-        max-width: 80%;
-    }
-}
+        margin-top: 2%;
+        margin-left: 2%;
+     }
+    
+     .img {
+        max-width: 100%;
+        height: auto;
+      
+     }
+    
+     .text{
+      color: white;
+      text-align: justify;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 7%;
+      margin-top: 2%;
+     }
+  }
